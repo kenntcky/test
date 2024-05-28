@@ -1,0 +1,136 @@
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-size: 10px;
+    color:rgb(253, 250, 250);
+    font-family: 'Gabriela', serif;
+}
+
+.head img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 600px ;
+    margin: auto;
+}
+
+.main{
+    background-color: #1e1e1e;
+    width: 100px;
+    height: 45px;
+    padding: 2px;
+    text-align: center;
+    z-index: 99;
+    border: 18px double white;
+    border-width: 12px;
+    font-family: 'Gabriela', serif;
+}
+
+
+.contents {
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    background-color: #111111;
+    width: 700px;
+    padding: 2px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    z-index: 99;
+    border: 18px double white;
+    border-width: 12px;
+    flex-direction: column;
+    height: 600px;
+    overflow-y: scroll;
+    overflow: scroll;
+}
+
+.index {
+    display: flex;
+    margin: auto;
+    position: absolute;
+    margin-top: 50px;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.home {
+    display: flex;
+    margin: auto;
+    position: absolute;
+    margin-top: 50px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.about {
+    display: flex;
+    margin: auto;
+    position: absolute;
+    margin-top: 50px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.gallery {
+    display: flex;
+    margin: auto;
+    position: absolute;
+    margin-top: 50px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.team {
+    display: flex;
+    margin: auto;
+    position: absolute;
+    margin-top: 50px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 650px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.content img{
+    margin: 20px;
+    border: 1;
+    border-radius: 30px;
+}
+
+.index img{
+  width: 80%;
+  height: 90%;
+  margin: auto;
+}
+
+p {
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+}
+ 
+.home h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.test {
+    width: 1000px;
+    height: 1000px;
+}
+
+#index img{
+    width: 70%;
+    height: 70%;
+    justify-content: center;
+}
+.tentang{
+    
+}
